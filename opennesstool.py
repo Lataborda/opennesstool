@@ -1,6 +1,5 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import streamlit_shadcn_ui as ui
 import numpy as np
 
 # ⚠️ Fix para numpy > 1.24
