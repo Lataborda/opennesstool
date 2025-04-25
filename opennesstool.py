@@ -148,7 +148,7 @@ if st.button("Calcular puntuaciones"):
     research_score = sum(scores_research)/len(scores_research)
 
     st.subheader("Resultados:",divider='blue')
-    st.write(f"**Open Engagement **: {collab_score:.2f} → {interpretar(collab_score)} | Estructuración: {interpretar_estructura(struct_collab)}")
+    st.write(f"**Open Engagement**: {collab_score:.2f} → {interpretar(collab_score)} | Estructuración: {interpretar_estructura(struct_collab)}")
     st.write(f"**Open Application & Adaptation**: {app_score:.2f} → {interpretar(app_score)} | Estructuración: {interpretar_estructura(struct_app)}")
     st.write(f"**Open Interaction Infrastructure**: {infra_score:.2f} → {interpretar(infra_score)} | Estructuración: {interpretar_estructura(struct_infra)}")
     st.write(f"**Open Research**: {research_score:.2f} → {interpretar(research_score)} | Estructuración: {interpretar_estructura(struct_research)}")
