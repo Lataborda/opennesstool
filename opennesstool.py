@@ -1,6 +1,7 @@
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
+from PIL import Image
 
 # ⚠️ Fix para numpy > 1.24
 if not hasattr(np, 'Inf'):
@@ -186,3 +187,8 @@ if st.button("Calcular puntuaciones"):
     ax.grid(True, linestyle="--", alpha=0.4)
 
     st.pyplot(fig)
+
+st.divider()
+st.markdown('*Copyright (C) 2025. CIRAD*')
+st.caption('**Authors: Alejandro Taborda A., (latabordaa@unal.edu.co), Chloé Lecombe**')
+st.image('data/aperto.png')
