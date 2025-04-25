@@ -191,4 +191,4 @@ if st.button("Calcular puntuaciones"):
 st.divider()
 st.markdown('*Copyright (C) 2025. CIRAD*')
 st.caption('**Authors: Alejandro Taborda A., (latabordaa@unal.edu.co), Chloé Lecombe**')
-st.image('Imange 1.png')
+st.image('aperto.png')
