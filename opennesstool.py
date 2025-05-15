@@ -6,7 +6,7 @@ from PIL import Image
 # ⚠️ Fix para numpy > 1.24
 if not hasattr(np, 'Inf'):
     np.Inf = np.inf
-
+st.set_page_config(page_title="Opennes_APERTO", layout="wide")
 # Título
 st.title("Encuesta: Dimensiones de Apertura en la Innovación")
 st.markdown("""
